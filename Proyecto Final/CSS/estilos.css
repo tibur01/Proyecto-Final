@@ -1,0 +1,166 @@
+body {
+    background: url(https://r4.wallpaperflare.com/wallpaper/933/196/941/cocina-comida-india-tipica-wallpaper-b900888d718add6b3667786f0071a6fd.jpg) fixed
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#inicio {
+   
+    background-color: rgba(0, 0, 0, 60%);
+    
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(37, 9, 36, 90%);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background-color: #863882;
+    transition: 0.3s;
+}
+
+#Presentación {
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#saludo {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#Presentación h2 {
+    font-size: 40px;
+}
+
+#descripcion {
+    max-width: 700px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenido {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#formacion {
+    background-color: rgba(13, 67, 70, 50%);
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#formacion h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#habilidades {
+    background-color: rgba(87, 24, 84, 50%);
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#habilidades h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#experiencia {
+    background-color: rgba(0, 0, 139, 50%);
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#experiencia h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.puestos {
+    max-width: 750px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contacto footer {
+    background-color: rgba(47, 79, 79, 50%);
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacto footer h2 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contacto footer a {
+    font-size: 30px;
+    border: solid;
+    border-radius: 10px;
+    text-decoration: none;
+    color: beige;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#boton {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 10px 15px;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+#boton2 {
+    width: 400px;
+    padding: 5px;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+#formulario {
+
+    display: none;
+}
